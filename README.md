@@ -24,7 +24,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This NodeJS/NestJS webserver that has the following: logging (using nest), documentation (using swagger), metrics reporting (using prom-client), and a route that can be used to fetch the metrics that were recorded!
+
+Further, it has a route that calls openAI API, submits a prompt and returns the response from chatGPT.
+
+What's really cool about this server is that most of it was written by chatGPT :)
 
 ## Installation
 
@@ -64,10 +68,10 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Nir Alfasi](https://medium.com/@alfasin) 
+- Website - [https://alfasin.com](https://alfsin.com/)
+- Twitter - [@niralfasi](https://twitter.com/niralfasi)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+[licensed](./LICENSE).
