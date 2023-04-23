@@ -70,4 +70,4 @@ $ yarn run test:cov
 
 ## License
 
-[licensed](./LICENSE).
+[licensed](./.LICENSE).
