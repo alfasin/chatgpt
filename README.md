@@ -49,6 +49,10 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+The docs (swagger) should be available under: http://localhost:3000/docs
+
+![docs page](./Swagger_UI.png)
+
 ## Test
 
 ```bash
