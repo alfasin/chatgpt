@@ -7,9 +7,15 @@ import { OpenaiService } from './openai.service';
 export class OpenaiController {
   constructor(private readonly openaiService: OpenaiService) {}
 
-  @Get()
-  @ApiOperation({ summary: 'Send chatGPT a aprompt' })
-  async getResponse(@Query('prompt') prompt: string): Promise<string> {
-    return this.openaiService.getResponse(prompt);
+  @Get('/chat')
+  @ApiOperation({ summary: 'Send chatGPT a prompt' })
+  async getChatResponse(@Query('prompt') prompt: string): Promise<string> {
+    return this.openaiService.getChatResponse(prompt);
+  }
+
+  @Get('/image')
+  @ApiOperation({ summary: 'Send an image prompt (DallE)' })
+  async getImageResponse(@Query('prompt') prompt: string): Promise<string> {
+    return this.openaiService.getImageResponse(prompt);
   }
 }
