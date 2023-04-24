@@ -69,7 +69,7 @@ $ yarn run test:cov
 ## Stay in touch
 
 - Author - [Nir Alfasi](https://medium.com/@alfasin) 
-- Website - [https://alfasin.com](https://alfsin.com/)
+- Website - [https://alfasin.com](https://alfasin.com/)
 - Twitter - [@niralfasi](https://twitter.com/niralfasi)
 
 ## License
