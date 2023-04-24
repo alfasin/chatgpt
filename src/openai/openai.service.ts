@@ -14,7 +14,7 @@ export class OpenaiService {
   }
 
   async getResponse(prompt: string): Promise<string> {
-    const messages = [prompt];
+    const messages = [{ role: 'user', content: prompt }];
     try {
       const completion = await this.openai.createChatCompletion({
         model: 'gpt-3.5-turbo',
