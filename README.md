@@ -53,6 +53,8 @@ The docs (swagger) should be available under: http://localhost:3000/docs
 
 ![docs page](./Swagger_UI.png)
 
+![ChatGPT example](./swagger_exp.png)
+
 ## Test
 
 ```bash
